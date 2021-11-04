@@ -1,0 +1,164 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.img-container img { 
+    width:  100%; 
+    height: 50px; 
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.img-container {
+    display: flex;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-container {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+
+.nav-mission p {
+    text-decoration: underline;
+}
+
+.nav-featured p {
+    text-decoration: underline;
+
+}
+
+.nav-locations {
+    text-decoration: underline;
+
+}
+
+.mission-container-parent {
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.mission-container-child {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+background-image: url(./image/img-mission-background.jpeg);
+
+}
+
+.mission-container-Grandchild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    width: 1200px;
+}
+
+.mission-container-Grandchild .Grandchild-1 {
+    background-color: black;
+}
+.mission-container-Grandchild .Grandchild-2 {
+    background-color: black;
+}
+
+.tea-list-container-header-child {
+    text-align: center;
+}
+
+.tea-list-container-photos img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+
+
+.tea-list-container-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.tea-list-container-photos figure {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-container-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width: 1200px;
+   
+    background-image: url(./image/img-locations-background.jpeg);
+}
+
+.location-container-grandchild2 {
+    display: flex;
+}
+
+
+
+.location-container-grandchild1 {
+    margin-bottom: 15px;
+}
+
+.greatchild-1, .greatchild-2 {
+    margin-right: 40px;
+    width: 300px;
+}
+
+.greatchild-3 {
+    width: 300px;
+
+}
+
+.location-container-grandchild2 p {
+    text-align: center;
+}
+
+.location-container-grandchild2 div {
+    background-color: black;
+}
+
+.footer  {
+    text-align: center;
+}
+
+
+
